@@ -2,9 +2,14 @@ import React, { useState, useEffect, useMemo, useRef } from 'react';
 import { PRODUCTS } from '../constants';
 import { Product } from '../types';
 
-const ProductTour: React.FC = () => {
+interface ProductTourProps {
+  onAddToCart?: (product: Product) => void;
+}
+
+const ProductTour: React.FC<ProductTourProps> = ({ onAddToCart }) => {
   const [activeIndex, setActiveIndex] = useState(0);
   const [selectedSize, setSelectedSize] = useState<35 | 45 | 55>(45);
+  const [addedId, setAddedId] = useState<string | null>(null);
   const scrollContainerRef = useRef<HTMLDivElement>(null);
 
   // Show all products in the tour now that category selection is removed
@@ -62,6 +67,14 @@ const ProductTour: React.FC = () => {
     return 'pc';
   };
 
+  const handleAdd = (product: Product) => {
+    if (onAddToCart) {
+      onAddToCart(product);
+      setAddedId(product.id);
+      setTimeout(() => setAddedId(null), 2000);
+    }
+  };
+
   const displayCategory = activeProduct.category === 'Box' ? 'ARTISAN BOX' : activeProduct.category.toUpperCase();
 
   return (
@@ -96,9 +109,19 @@ const ProductTour: React.FC = () => {
              <h2 className="text-4xl md:text-5xl font-serif font-black mb-6 leading-tight text-white relative z-10">{activeProduct.name}</h2>
              
              <p className="text-white/50 text-sm leading-relaxed mb-8">{activeProduct.description}</p>
-             <div className="flex justify-between items-center pt-6 border-t border-white/5">
-                <span className="text-[10px] uppercase tracking-widest text-white/30 font-black">Market Value</span>
-                <span className="text-4xl font-black text-white">${activeProduct.price.toFixed(2)}</span>
+             
+             <div className="flex justify-between items-center pt-8 border-t border-white/5 gap-6">
+                <div>
+                  <span className="text-[10px] uppercase tracking-widest text-white/30 font-black block mb-1">Market Value</span>
+                  <span className="text-4xl font-black text-white">${activeProduct.price.toFixed(2)}</span>
+                </div>
+                <button 
+                  onClick={() => handleAdd(activeProduct)}
+                  className={`flex-grow py-4 rounded-2xl font-black text-sm transition-all flex items-center justify-center gap-2 ${addedId === activeProduct.id ? 'bg-white text-luxury-dark' : 'bg-primary text-luxury-dark hover:scale-105 active:scale-95 shadow-lg shadow-primary/20'}`}
+                >
+                   <span className="material-symbols-outlined">{addedId === activeProduct.id ? 'check' : 'shopping_bag'}</span>
+                   {addedId === activeProduct.id ? 'Added' : 'Add to Box'}
+                </button>
              </div>
           </div>
 
