@@ -55,11 +55,11 @@ const Profile: React.FC<ProfileProps> = ({ user, onLogout }) => {
             <div className="bg-gradient-to-br from-primary/20 to-accent-dark/40 rounded-[3rem] p-12 border border-primary/20 flex flex-col md:flex-row gap-12 items-center relative overflow-hidden">
               <div className="absolute top-0 right-0 size-64 bg-primary rounded-full blur-[100px] opacity-20 -z-10"></div>
               <div className="size-48 rounded-[2rem] overflow-hidden shadow-2xl flex-shrink-0">
-                <img src="https://images.unsplash.com/photo-1548907040-4baa42d10919?auto=format&fit=crop&q=80&w=600" className="size-full object-cover" alt="Rec" />
+                <img src="https://publish.purewow.net/wp-content/uploads/sites/2/2022/02/white-chocolate-recipes-sugar-cookie-truffles-recipe.jpeg?fit=680%2C860" className="size-full object-cover" alt="Rec" />
               </div>
               <div>
                 <span className="bg-primary text-luxury-dark text-[10px] font-black uppercase tracking-widest px-4 py-1 rounded-full mb-6 inline-block">Personal Peak Pick</span>
-                <h3 className="text-3xl font-bold mb-4">Recommended for You:<br/>75% Dark Truffles</h3>
+                <h3 className="text-3xl font-bold mb-4">Recommended for You:<br/>Vanilla Chocolate</h3>
                 <p className="text-white/60 text-sm mb-8 max-w-lg">Based on your recent preference for bold, earthy profiles, we've curated this Ecuadorian collection just for you.</p>
                 <Link to={RoutePath.Shop} className="bg-white text-luxury-dark font-black px-8 py-3 rounded-xl hover:bg-primary transition-all active:scale-95 inline-block">Add to Next Box</Link>
               </div>
@@ -176,7 +176,7 @@ const Profile: React.FC<ProfileProps> = ({ user, onLogout }) => {
         <div className="w-full md:w-80 space-y-8 sticky top-32">
           <div className="bg-white/5 rounded-[3rem] p-10 border border-white/10 text-center">
             <div className="size-32 bg-primary/20 rounded-full mx-auto mb-6 flex items-center justify-center p-1 border-2 border-primary">
-              <img src={`https://api.dicebear.com/7.x/avataaars/svg?seed=${user.name}`} className="size-full rounded-full" alt="Avatar" />
+              <img src={`https://api.dicebear.com/8.x/avataaars/svg?seed=${user.name}`} className="size-full rounded-full" alt="Avatar" />
             </div>
             <h2 className="text-2xl font-bold capitalize mb-1">{user.name}</h2>
             <p className="text-primary text-[10px] font-black uppercase tracking-[0.3em]">{currentPlan} Member</p>

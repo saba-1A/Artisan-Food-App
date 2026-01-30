@@ -23,6 +23,5 @@ export enum RoutePath {
   Signup = '/signup',
   Profile = '/profile',
   Checkout = '/checkout',
-  SubscriptionCheckout = '/subscription-checkout',
-  Tour = '/tour'
+  SubscriptionCheckout = '/subscription-checkout'
 }
