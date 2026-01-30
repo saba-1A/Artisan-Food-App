@@ -6,23 +6,23 @@ import { motion } from 'framer-motion';
 const BLOG_CONTENT: Record<string, any> = {
   'caring-for-cacao': {
     title: "Caring for your cacao products",
-    subtitle: "Essential maintenance",
+    subtitle: "Maintenance",
     date: "Jan 4, 2026",
     readTime: "7 min read",
-    image: "https://i.pinimg.com/originals/a8/ae/df/a8aedfc1c016418d6c2c0df7af7fa620.jpg", // Strawberries/Choco
+    image: "https://i.pinimg.com/originals/a8/ae/df/a8aedfc1c016418d6c2c0df7af7fa620.jpg", 
     intro: "High-quality organic cacao is an investment in your wellness, and with proper care, it can maintain its potency and flavor profile for months. Here’s how to keep your cacao looking and tasting as good as new.",
     sections: [
       {
         heading: "Proper Storage for Lasting Freshness",
-        text: "Heat and humidity can compromise the delicate structures of raw cacao. Store your products in a cool, dry place—ideally between 60°F and 70°F (15°C–21°C). Avoid the refrigerator unless absolutely necessary, as condensation can lead to 'sugar bloom,' where sugar crystals rise to the surface."
+        text: "Heat and humidity can compromise the delicate structures of raw cacao. Store your products in a cool, dry place—ideally between 60°F and 70°F (15°C–21°C). Avoid the refrigerator unless absolutely necessary."
       },
       {
         heading: "Protecting Against Oxidation",
-        text: "Cacao is sensitive to air and strong odors. Always reseal your package tightly after every use to prevent oxidation, which can dull the rich flavor notes. If transferring to a new container, ensure it is an airtight glass jar or a high-quality tin to lock in the aroma."
+        text: "Cacao is sensitive to air and strong odors. Always reseal your package tightly after every use to prevent oxidation, which can dull the rich flavor notes."
       },
       {
         heading: "Serving the Right Way",
-        text: "When not in use, keep your cacao away from direct sunlight. UV rays can degrade the antioxidants found in raw chocolate. Allow refrigerated chocolate to reach room temperature before opening to prevent condensation from forming on the surface."
+        text: "When not in use, keep your cacao away from direct sunlight. UV rays can degrade the antioxidants found in raw chocolate."
       }
     ]
   },
@@ -31,42 +31,42 @@ const BLOG_CONTENT: Record<string, any> = {
     subtitle: "Trending Now",
     date: "Jan 12, 2026",
     readTime: "5 min read",
-    image: "https://www.eatingonadime.com/wp-content/uploads/2024/03/DragonFruitSmoothieLR-13.jpg", // Dragonfruit
-    intro: " Perfect for mornings, post-workout hydration, or a midday reset, the Tropical Dragonfruit Press fits seamlessly into any wellness routine. Light yet satisfying, it refreshes the body while gently uplifting the mind.",
+    image: "https://www.eatingonadime.com/wp-content/uploads/2024/03/DragonFruitSmoothieLR-13.jpg",
+    intro: "Perfect for mornings, post-workout hydration, or a midday reset, the Tropical Dragonfruit Press fits seamlessly into any wellness routine.",
     sections: [
       {
         heading: "A Fruit That Does More",
-        text: "Vibrant, refreshing, and packed with antioxidants, our Dragonfruit press has taken the top spot this season. Sourced from sustainable orchards, it offers a natural energy boost without the caffeine crash, making it the perfect morning companion."
+        text: "Vibrant, refreshing, and packed with antioxidants, our Dragonfruit press has taken the top spot this season."
       },
       {
         heading: "Cold-Pressed for Purity",
-        text: "Our Tropical Dragonfruit Press is crafted using cold-press extraction to preserve the fruit’s natural enzymes and nutrients. By avoiding heat, we maintain the integrity of its flavor profile—resulting in a smooth, clean taste that feels as fresh as it looks."
+        text: "Our Tropical Dragonfruit Press is crafted using cold-press extraction to preserve the fruit’s natural enzymes and nutrients."
       },
       {
         heading: "Sustainably Sourced Ingredients",
-        text: "Every bottle begins at responsible farms that prioritize ethical practices and soil health. We work closely with growers to ensure our dragonfruit is harvested at peak ripeness, delivering optimal flavor while supporting long-term sustainability."
+        text: "Every bottle begins at responsible farms that prioritize ethical practices and soil health."
       }
     ]
   },
   'brand-story': {
     title: "Choco Belgium Delight",
-    subtitle: "Our Mission",
+    subtitle: "Delights",
     date: "Feb 28, 2026",
     readTime: "9 min read",
-    image: "https://i.pinimg.com/originals/0d/5c/e0/0d5ce050712feb9bfb907a80671cef06.jpg", // Dark Chocolates
-    intro: "Choco Belgium Delight was created with a simple belief: exceptional chocolate begins with patience, purpose, and respect for origin. In an industry driven by speed and scale, we chose a slower path—one rooted in craftsmanship, sustainability, and uncompromising quality.",
+    image: "https://i.pinimg.com/originals/0d/5c/e0/0d5ce050712feb9bfb907a80671cef06.jpg",
+    intro: "Choco Belgium Delight was created with a simple belief: exceptional chocolate begins with patience, purpose, and respect for origin.",
     sections: [
       {
         heading: "Crafted the Belgian Way",
-        text: "True Belgian chocolate is defined by balance—depth without bitterness, richness without excess. Our chocolatiers follow traditional techniques, carefully roasting and tempering each batch to achieve a smooth texture, refined snap, and natural sheen that signals quality at first glance."
+        text: "True Belgian chocolate is defined by balance—depth without bitterness, richness without excess."
       },
       {
         heading: "Small Batches, Greater Care",
-        text: "Rather than mass production, we produce in small batches to maintain precision and consistency. This approach allows us to adjust, refine, and perfect every detail—from flavor development to mouthfeel—ensuring each piece meets our exacting standards."
+        text: "Rather than mass production, we produce in small batches to maintain precision and consistency."
       },
       {
         heading: "Chocolate with Purpose",
-        text: "For us, chocolate is not just indulgence; it’s intention. Choco Belgium Delight represents a commitment to mindful enjoyment—where every bite reflects craftsmanship, sustainability, and a deep respect for the people and processes behind it."
+        text: "For us, chocolate is not just indulgence; it’s intention. Choco Belgium Delight represents a commitment to mindful enjoyment."
       }
     ]
   },
@@ -75,20 +75,20 @@ const BLOG_CONTENT: Record<string, any> = {
     subtitle: "Wellness Guide",
     date: "Jan 15, 2026",
     readTime: "6 min read",
-    image: "https://www.funkypigeon.com/gallery/otherproducts/158507.jpg", // Heart Chocolates
-    intro: "Ruby Berry Pralines are a celebration of balance—where indulgence meets intention. Designed for those who believe wellness doesn’t have to feel restrictive, these pralines offer a thoughtful way to enjoy sweetness while staying aligned with your body’s needs.",
+    image: "https://www.funkypigeon.com/gallery/otherproducts/158507.jpg",
+    intro: "Ruby Berry Pralines are a celebration of balance—where indulgence meets intention.",
     sections: [
       {
         heading: "When Wellness Meets Comfort",
-        text: "Whether you’re seeking an energy lift, a moment of calm, or a comforting treat after a long day, Ruby Berry Pralines adapt effortlessly to your routine. They pair beautifully with quiet mornings, afternoon pauses, or evening wind-downs."
+        text: "Whether you’re seeking an energy lift, a moment of calm, or a comforting treat after a long day, Ruby Berry Pralines adapt effortlessly."
       },
       {
         heading: "A Thoughtful Treat",
-        text: "Wellness is not about elimination—it’s about intention. Ruby Berry Pralines invite you to enjoy chocolate in a way that feels nourishing, balanced, and emotionally satisfying."
+        text: "Wellness is not about elimination—it’s about intention. Ruby Berry Pralines invite you to enjoy chocolate in a way that feels nourishing."
       },
       {
         heading: "Indulgence Without Excess",
-        text: "Unlike traditional confections, these pralines are carefully formulated to feel satisfying without heaviness. Each piece is designed to be savored—encouraging mindful enjoyment rather than overindulgence."
+        text: "Unlike traditional confections, these pralines are carefully formulated to feel satisfying without heaviness."
       }
     ]
   }
@@ -106,25 +106,44 @@ const BlogPost: React.FC = () => {
   // Get data based on slug
   const article = slug ? BLOG_CONTENT[slug] : null;
 
+  // Filter other posts for the "Read Next" section
+  const otherPosts = Object.entries(BLOG_CONTENT).filter(([key]) => key !== slug);
+
   // Handle 404 if slug doesn't exist
   if (!article) {
     return (
       <div className="min-h-screen bg-[#050505] flex flex-col items-center justify-center text-white">
         <h1 className="text-4xl font-serif mb-4">Article Not Found</h1>
-        <button onClick={() => navigate('/')} className="text-priJany hover:underline">Return Home</button>
+        <button onClick={() => navigate('/')} className="text-primary hover:underline">Return Home</button>
       </div>
     );
   }
 
   return (
-    <main className="bg-[#050505] text-white min-h-screen pt-32 pb-24">
+    <main className="bg-[#050505] text-white min-h-screen pt-32 pb-24 relative">
+      
+      {/* --- NEW: Sticky Back Button --- */}
+      <button 
+        onClick={() => navigate(-1)} // This goes back to previous history position
+        className="fixed top-24 left-6 z-50 hidden xl:flex items-center gap-2 text-white/50 hover:text-white transition-colors bg-black/20 backdrop-blur-md px-4 py-2 rounded-full border border-white/10"
+      >
+        <span>←</span> <span>Back</span>
+      </button>
+
       <article className="max-w-[800px] mx-auto px-6">
         
-        {/* Breadcrumbs */}
+        {/* Breadcrumbs (Mobile/Tablet Friendly Back Link) */}
         <div className="flex items-center gap-2 text-sm text-white/40 mb-8 uppercase tracking-wider font-medium">
-          <Link to="/" className="hover:text-priJany transition-colors">Blog</Link>
+          <Link to="/" className="hover:text-white transition-colors">Home</Link>
           <span>/</span>
-          <span className="text-white/60">{article.subtitle}</span>
+          <span 
+            onClick={() => navigate(-1)} 
+            className="cursor-pointer hover:text-white transition-colors"
+          >
+            Blog
+          </span>
+          <span>/</span>
+          <span className="text-white/60 truncate max-w-[150px]">{article.subtitle}</span>
         </div>
 
         {/* Title */}
@@ -171,14 +190,11 @@ const BlogPost: React.FC = () => {
         </motion.div>
 
         {/* Article Content */}
-        <div className="space-y-16">
-          
-          {/* Intro Paragraph */}
+        <div className="space-y-16 mb-24">
           <p className="text-lg md:text-xl text-white/90 font-normal leading-relaxed">
             {article.intro}
           </p>
 
-          {/* Subsections */}
           {article.sections.map((section: any, index: number) => (
             <motion.section 
               key={index}
@@ -202,8 +218,41 @@ const BlogPost: React.FC = () => {
             </p>
           </div>
         </div>
-
       </article>
+
+      {/* --- NEW SECTION: READ NEXT (View Other Posts) --- */}
+      <section className="border-t border-white/10 pt-16 bg-[#0a0a0a]">
+        <div className="max-w-[1200px] mx-auto px-6">
+          <h3 className="text-2xl font-serif text-white mb-8">Read Next</h3>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {otherPosts.slice(0, 3).map(([key, post]: any) => (
+              <Link to={`/blog/${key}`} key={key} className="group block">
+                <div className="aspect-[4/3] overflow-hidden rounded-sm mb-4 bg-[#111]">
+                  <img 
+                    src={post.image} 
+                    alt={post.title} 
+                    className="w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-500"
+                  />
+                </div>
+                <div className="text-xs text-white/40 mb-2">{post.date}</div>
+                <h4 className="text-xl font-serif text-white group-hover:text-primary transition-colors">
+                  {post.title}
+                </h4>
+              </Link>
+            ))}
+          </div>
+          
+          <div className="mt-12 text-center">
+             <button 
+                onClick={() => navigate('/')}
+                className="px-8 py-3 border border-white/20 rounded-full hover:bg-white hover:text-black transition-all uppercase text-sm tracking-widest"
+             >
+                View All Posts
+             </button>
+          </div>
+        </div>
+      </section>
+      
     </main>
   );
 };
