@@ -143,9 +143,10 @@ const stagger: Variants = {
 const Home: React.FC = () => {
   const navigate = useNavigate();
   
-  // Hero Images
-  const heroImg1 = "https://lh3.googleusercontent.com/aida-public/AB6AXuB7QbElXl9grVXzq_Nr5UgIDyhq7yO0G3Bc-h98fUcfro6duE67CSVk4KXjzSoxGjjh7Nb9-F0zimXYBhJkWeAl9FVyzU0kUlTguee8VTm2XGQuh-Me7JkGu-pdCLDkfuJqEbjAwiXCnUPy-G6WOQ3eGgakXF5uTAQ-XNkQzxnhWMIqBfr8V0uF1ZBeehnBubElgTL1ehLc5Y79zXpiBDYMOvsk7ogoq2ZSDgLZ2tGtBzK1q5JZI-g40Izhtl8TL2gu2fSKE2M0qibl";
-  const heroImg2 = "https://lh3.googleusercontent.com/aida-public/AB6AXuD6YMttjNVIr4cSuHjZc_dkzs553TLZpvANwUgG5ZU0hhPEsgEFJ9fznookAcZ5-YKZkxC5EzJVABvh4ojVVFffPqdT7l5gksxn_VfYJo0c82F2NZyU1zYGAkiMNr8x9pSWZzXq1KXlwaGdbJjFAwqmxpRr0B2SJ9rjY0_OMllHisERCn2Dzd86WIFLMt4H7gGlDvU0y6z1POSEkGcqeX83ow7UdvSiL5jILfel7zpB2_8nhTbI0XhdMViC-cMlF1C2cGvMTfuGJ1Ub";
+  // --- NEW WORKING LINES ---
+const heroImg1 = "/hero2.png"; // Dark Chocolate
+const heroImg2 = "/hero1.png"; // Cacao Pods
+
 
   // Parallax Effect for Hero
   const { scrollY } = useScroll();
@@ -283,7 +284,7 @@ const Home: React.FC = () => {
   return (
     <main className="bg-[#050505] text-white overflow-hidden">
       
-      {/* --- HERO SECTION --- */}
+{/* --- HERO SECTION --- */}
       <section className="relative pt-24 pb-12 overflow-hidden min-h-[90vh] flex items-center">
         <div className="max-w-[1440px] mx-auto px-6 w-full">
           <motion.div 
@@ -309,15 +310,20 @@ const Home: React.FC = () => {
               </div>
             </div>
             
-            <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent flex flex-col justify-end p-8 md:p-16 lg:p-24">
+            {/* UPDATED: Changed justify-end to justify-center to move text UP */}
+            <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent flex flex-col justify-center p-8 md:p-16 lg:p-24">
               <motion.div 
                 initial="hidden" 
                 animate="visible" 
                 variants={stagger} 
                 className="max-w-2xl"
               >
-                <motion.h1 variants={fadeInUp} className="font-serif text-5xl md:text-7xl lg:text-8xl font-black leading-[0.9] mb-8 tracking-tighter text-white drop-shadow-lg">
-                  Pure Indulgence,<br/><span className="text-primary italic">Naturally Crafted</span>
+                <motion.h1 
+                  variants={fadeInUp} 
+                  className="font-serif text-5xl md:text-6xl lg:text-7xl font-black leading-[0.9] mb-8 tracking-tighter text-white drop-shadow-lg"
+                >
+                  Pure Indulgence,<br/>
+                  <span className="text-primary italic">Naturally Crafted</span>
                 </motion.h1>
                 <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row gap-4">
                   <Link to={RoutePath.Signup} className="px-10 py-5 bg-primary text-luxury-dark font-bold rounded-2xl text-lg hover:brightness-110 transition-all flex items-center justify-center gap-2 shadow-lg shadow-primary/20">
