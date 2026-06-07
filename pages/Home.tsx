@@ -178,7 +178,7 @@ const heroImg2 = "/hero1.png"; // Cacao Pods
       price: "$12.00" 
     },
     { 
-      imgBefore: "https://publish.purewow.net/wp-content/uploads/sites/2/2022/02/white-chocolate-recipes-sugar-cookie-truffles-recipe.jpeg?fit=680%2C860", 
+      imgBefore: "https://i.etsystatic.com/24520143/r/il/322654/3650575876/il_1080xN.3650575876_giwx.jpg", 
       imgAfter: "https://tse2.mm.bing.net/th/id/OIP.FQF98yMYlOVYIGxwHGMNjAHaHa?pid=ImgDet&w=184&h=184&c=7&dpr=1.3&o=7&rm=3", 
       title: "Vanilla Chocolate", 
       price: "$26.00" 

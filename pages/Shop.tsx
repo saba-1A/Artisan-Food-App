@@ -84,7 +84,7 @@ const VANILLA_CHOCOLATE: Product = {
   price: 26.00,
   category: 'Box',
   tagline: 'Velvet Sweetness',
-  image: 'https://publish.purewow.net/wp-content/uploads/sites/2/2022/02/white-chocolate-recipes-sugar-cookie-truffles-recipe.jpeg?fit=680%2C860'
+  image: 'https://i.etsystatic.com/24520143/r/il/322654/3650575876/il_1080xN.3650575876_giwx.jpg'
 };
 
 const ALL_RAW_PRODUCTS = [...ORIGINAL_PRODUCTS, VANILLA_CHOCOLATE];

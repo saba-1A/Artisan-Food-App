@@ -25,7 +25,7 @@ export const PRODUCTS: Product[] = [
     description: 'A curated ensemble of our finest Belgian pralines and seasonal fruit-infused ganaches.',
     price: 58.00,
     category: 'Box',
-    image: 'https://thechocolatebarusa.com/wp-content/uploads/2016/02/25-Medium-45-Large-65-xlargerSignature-Belgian-Chocolate-Boxes1-768x768.jpg',
+    image: 'https://fleursamanda.co.uk/wp-content/uploads/2022/09/1811459F-BAFD-4C8C-BC79-5CF4F0B313B0.jpeg',
     tagline: 'The Ultimate Collection'
   },
   {
