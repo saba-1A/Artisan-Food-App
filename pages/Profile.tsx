@@ -55,7 +55,7 @@ const Profile: React.FC<ProfileProps> = ({ user, onLogout }) => {
             <div className="bg-gradient-to-br from-primary/20 to-accent-dark/40 rounded-[3rem] p-12 border border-primary/20 flex flex-col md:flex-row gap-12 items-center relative overflow-hidden">
               <div className="absolute top-0 right-0 size-64 bg-primary rounded-full blur-[100px] opacity-20 -z-10"></div>
               <div className="size-48 rounded-[2rem] overflow-hidden shadow-2xl flex-shrink-0">
-                <img src="https://publish.purewow.net/wp-content/uploads/sites/2/2022/02/white-chocolate-recipes-sugar-cookie-truffles-recipe.jpeg?fit=680%2C860" className="size-full object-cover" alt="Rec" />
+                <img src="https://i.etsystatic.com/24520143/r/il/322654/3650575876/il_1080xN.3650575876_giwx.jpg" className="size-full object-cover" alt="Rec" />
               </div>
               <div>
                 <span className="bg-primary text-luxury-dark text-[10px] font-black uppercase tracking-widest px-4 py-1 rounded-full mb-6 inline-block">Personal Peak Pick</span>
